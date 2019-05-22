@@ -1,0 +1,25 @@
+<%include partials/header %>
+<div class="conatainer">
+<form action="/blog" method="POST">
+    <div class="ui form">
+  <div class="three fields">
+    <div class="field">
+      <label>First name</label>
+      <input type="text" name="blog[title]" placeholder="First Name">
+    </div>
+    <div class="field">
+      <label>Middle name</label>
+      <input type="text" name="blog[image]" placeholder="image">
+    </div>
+    <div class="field">
+      <label>Last name</label>
+      <input type="text" name="blog[body]" placeholder="body">
+    </div>
+    
+          <input type="submit" value="submit"  class="ui inverted green button">
+         
+  </div>
+</div>
+</form>
+</div>
+<%include partials/footer %>

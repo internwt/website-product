@@ -1,0 +1,8 @@
+<%include partials/header%>
+<h2>hello world</h2>
+<%Bloge.forEach(function(blog){%>
+<p><%=blog.title%></p>
+<h2><img  class="ui medium circular image"  src="<%=blog.image%>"/></h2>
+<p> <a href="/blog/<%=blog._id%>">read more</a></p>
+<%})%>
+<%include partials/footer%>
