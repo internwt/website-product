@@ -120,7 +120,7 @@ app.post("/send",function(req,res){
     secure: false, // true for 465, false for other ports
     auth: {
       user: "15uec032@lnmiit.ac.in", 
-      pass:  "preet@some"
+      pass:  "*************"
     },
     tls:{
        rejectUnauthoRized:false
